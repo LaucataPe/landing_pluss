@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pluss100 – Software Contable en la Nube para PYMES en Colombia</title>
+  <meta name="description" content="Pluss100 es el software contable 100% en la nube para PYMES y startups colombianas. Facturación electrónica DIAN, informes tributarios, nómina y dashboard gerencial. Agenda tu demo gratis." />
+  <meta name="keywords" content="software contable Colombia, facturación electrónica DIAN, contabilidad en la nube, software PYMES Colombia, informes tributarios, nómina electrónica, Pluss100" />
+  <meta name="author" content="Pluss100" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#003572" />
+  <link rel="canonical" href="https://www.pluss100.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CO" />
+  <meta property="og:title" content="Pluss100 – Software Contable en la Nube para PYMES en Colombia" />
+  <meta property="og:description" content="Centro de mando financiero para gerentes de PYMES colombianas. Facturación electrónica DIAN, dashboard gerencial, informes tributarios y nómina. 100% en la nube." />
+  <meta property="og:url" content="https://www.pluss100.com/" />
+  <meta property="og:site_name" content="Pluss100" />
+  <meta property="og:image" content="https://www.pluss100.com/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Pluss100 - Software contable en la nube para PYMES colombianas" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pluss100 – Software Contable en la Nube para PYMES en Colombia" />
+  <meta name="twitter:description" content="Facturación electrónica DIAN, informes tributarios, nómina y dashboard gerencial. 100% en la nube para PYMES colombianas." />
+  <meta name="twitter:image" content="https://www.pluss100.com/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="img/favicon.png" />
+
+  <!-- Structured Data: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Pluss100",
+    "description": "Software contable 100% en la nube para PYMES y startups colombianas. Facturación electrónica DIAN, informes tributarios, nómina y dashboard gerencial.",
+    "url": "https://www.pluss100.com/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "COP",
+      "description": "Demo gratuita disponible"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "3"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Pluss100 incluye facturación electrónica y documentos DIAN?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Emite facturas electrónicas, notas crédito y documentos soporte cumpliendo todos los requisitos de la DIAN, y quedan registrados contablemente de forma automática."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Necesito instalar algo o tener infraestructura especial?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Pluss100 es 100% web. Accedes desde cualquier dispositivo con internet, sin instalaciones ni servidores propios."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo funciona la implementación?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Incluye importación de tu información actual, parametrización personalizada y capacitaciones al equipo hasta que todo funcione correctamente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Las actualizaciones tienen costo adicional?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Las actualizaciones son automáticas y sin costo extra. Siempre tendrás la versión más reciente y adaptada a las normativas vigentes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Se adapta a diferentes tipos de empresas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Servicios, comercio, producción y más. Configuramos lo que necesitas sin complicaciones."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Puedo tener múltiples usuarios con roles distintos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Creas usuarios con diferentes niveles de acceso para que cada persona vea solo lo que necesita."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      prefix: 'tw-',
+      corePlugins: {
+        preflight: false,
+      },
+      theme: {
+        extend: {
+          colors: {
+            primary: '#003572',
+            'primary-light': '#0066cc',
+            accent: '#00a8ff',
+            success: '#00c853',
+            dark: '#0a1628',
+          },
+          fontFamily: {
+            sora: ['Sora', 'sans-serif'],
+            dm: ['DM Sans', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header>
+    <nav id="navbar" aria-label="Navegación principal">
+      <div class="logo">
+        <a href="/" aria-label="Pluss100 - Inicio">
+          <img src="img/logo2.png" alt="Pluss100 - Software contable en la nube" width="140" height="42" />
+        </a>
+      </div>
+      <a href="https://calendly.com/pluss100/demostracion-pluss100" target="_blank" rel="noopener noreferrer" class="cta-nav">Solicitar Demo →</a>
+    </nav>
+  </header>
+
+  <main>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content reveal">
+      <div class="hero-tag"><span></span> Software contable para Colombia</div>
+      <h1>
+        Deja de ser un<br/>
+        <em>extraño en tus propias finanzas</em>
+      </h1>
+      <p class="subtitle">
+        Pluss100 es el centro de mando financiero para gerentes de PYMES y startups colombianas. Simple, en la nube, 100% DIAN.
+      </p>
+      <div class="hero-actions">
+        <a href="https://calendly.com/pluss100/demostracion-pluss100" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Agenda tu demo gratis
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#features" class="btn-ghost">Ver funcionalidades</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>100%</strong><span>En la nube</span></div>
+        <div class="hero-stat"><strong>80%</strong><span>Menos registro manual</span></div>
+        <div class="hero-stat"><strong>+15</strong><span>Informes tributarios</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <img src="img/header.png" alt="Dashboard de Pluss100 - Control financiero en la nube" />
+    </div>
+  </section>
+
+  <!-- PAIN POINTS -->
+  <section id="pain">
+    <div class="section-label reveal">El problema</div>
+    <h2 class="section-title reveal">¿Te suena familiar?</h2>
+    <p class="section-subtitle reveal">Los softwares contables tradicionales fueron diseñados para contadores, no para quien dirige el negocio.</p>
+    <div class="pain-grid">
+      <div class="pain-card reveal">
+        <div class="pain-icon">⏱️</div>
+        <h3>Tiempo que se esfuma</h3>
+        <p>Horas en procesos manuales, cuadrando cifras que deberían estar a un clic.</p>
+      </div>
+      <div class="pain-card reveal">
+        <div class="pain-icon">⚠️</div>
+        <h3>Miedo a sanciones</h3>
+        <p>Un error de cálculo puede costar caro. Sin claridad, el riesgo es constante.</p>
+      </div>
+      <div class="pain-card reveal">
+        <div class="pain-icon">🔒</div>
+        <h3>Finanzas como caja negra</h3>
+        <p>Sabes que el negocio funciona, pero los números reales se sienten inalcanzables.</p>
+      </div>
+      <div class="pain-card reveal">
+        <div class="pain-icon">🖥️</div>
+        <h3>Atado al servidor local</h3>
+        <p>Solo puedes trabajar desde la oficina, como si el tiempo no hubiera avanzado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <div class="section-label centered reveal">Funcionalidades</div>
+    <h2 class="section-title centered reveal">Todo lo que necesitas,<br/><em>donde estés</em></h2>
+    <p class="section-subtitle centered reveal">Cada módulo fue pensado para que tú y tu contador trabajen en sintonía, sin fricciones.</p>
+    <div class="features-list">
+
+      <div class="feature-row reveal">
+        <div class="feature-text">
+          <div class="feature-num">01 — Facturación</div>
+          <h3>Facturación electrónica que cumple sola</h3>
+          <p>Emite facturas, notas crédito y documentos soporte en segundos. Todo queda registrado contablemente y validado ante la DIAN automáticamente.</p>
+          <span class="feature-tag">✓ DIAN al día siempre</span>
+        </div>
+        <div class="feature-img">
+          <img src="img/dian.png" alt="Módulo de facturación electrónica DIAN en Pluss100" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="feature-row reverse reveal">
+        <div class="feature-text">
+          <div class="feature-num">02 — Tablero de Mando</div>
+          <h3>Tus números en tiempo real</h3>
+          <p>Un dashboard diseñado para gerentes, no contadores. Ingresos, gastos, indicadores clave y alertas, todo en una pantalla que entiendes al instante.</p>
+          <span class="feature-tag">✓ Decisiones más rápidas</span>
+        </div>
+        <div class="feature-img">
+          <img src="img/dashboard.png" alt="Tablero de mando gerencial en Pluss100" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="feature-row reveal">
+        <div class="feature-text">
+          <div class="feature-num">03 — Impuestos</div>
+          <h3>+15 informes tributarios listos</h3>
+          <p>IVA, Retención en la fuente, Renta, Industria y Comercio y más. Solo revisas y presentas — Pluss100 hace el trabajo pesado.</p>
+          <span class="feature-tag">✓ Sin errores ni re-trabajo</span>
+        </div>
+        <div class="feature-img">
+          <img src="img/informes.png" alt="Informes tributarios automáticos en Pluss100" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="feature-row reverse reveal">
+        <div class="feature-text">
+          <div class="feature-num">04 — Nómina</div>
+          <h3>Nómina y activos sin dolores de cabeza</h3>
+          <p>Gestiona tu nómina, activos fijos y más desde el mismo sistema. Integrado con la contabilidad para que no haya doble trabajo.</p>
+          <span class="feature-tag">✓ Todo integrado</span>
+        </div>
+        <div class="feature-img">
+          <img src="img/nomina.png" alt="Módulo de nómina y activos fijos en Pluss100" loading="lazy" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COMPARE -->
+  <section id="compare">
+    <div class="section-label reveal">Comparativa</div>
+    <h2 class="section-title reveal">Software tradicional<br/>vs <em style="color:var(--accent)">Pluss100</em></h2>
+    <p class="section-subtitle reveal" style="color:rgba(255,255,255,0.55)">No es solo otro software contable. Es la diferencia entre sobrevivir y dominar tus finanzas.</p>
+    <div class="compare-table reveal">
+      <div class="compare-head">
+        <div class="col"></div>
+        <div class="col trad">Tradicional</div>
+        <div class="col pluss">Pluss100</div>
+      </div>
+      <div class="compare-row">
+        <div class="feature-name">Acceso 100% en la nube</div>
+        <div class="check"><span class="icon-no">✕</span></div>
+        <div class="check"><span class="icon-yes">✓</span></div>
+      </div>
+      <div class="compare-row">
+        <div class="feature-name">Facturación electrónica DIAN</div>
+        <div class="check"><span class="icon-no">✕</span></div>
+        <div class="check"><span class="icon-yes">✓</span></div>
+      </div>
+      <div class="compare-row">
+        <div class="feature-name">Dashboard para gerentes</div>
+        <div class="check"><span class="icon-no">✕</span></div>
+        <div class="check"><span class="icon-yes">✓</span></div>
+      </div>
+      <div class="compare-row">
+        <div class="feature-name">Actualizaciones automáticas</div>
+        <div class="check"><span class="icon-no">✕</span></div>
+        <div class="check"><span class="icon-yes">✓</span></div>
+      </div>
+      <div class="compare-row">
+        <div class="feature-name">Soporte por WhatsApp</div>
+        <div class="check"><span class="icon-no">✕</span></div>
+        <div class="check"><span class="icon-yes">✓</span></div>
+      </div>
+      <div class="compare-row">
+        <div class="feature-name">Sin instalaciones ni servidores</div>
+        <div class="check"><span class="icon-no">✕</span></div>
+        <div class="check"><span class="icon-yes">✓</span></div>
+      </div>
+      <div class="compare-row">
+        <div class="feature-name">Respaldos automáticos en nube</div>
+        <div class="check"><span class="icon-no">✕</span></div>
+        <div class="check"><span class="icon-yes">✓</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="section-label centered reveal">Testimonios</div>
+    <h2 class="section-title centered reveal">Lo que dicen <em>nuestros clientes</em></h2>
+    <p class="section-subtitle centered reveal">Empresas colombianas que ya transformaron su gestión financiera.</p>
+    <div class="testimonials-grid">
+      <div class="testi-card reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Desde el primer día me impresionó la facilidad para operar. Es muy amigable incluso para personas que no son del área contable, y ha cubierto todas nuestras necesidades."</blockquote>
+        <div class="testi-author">
+          <div class="author-avatar">LG</div>
+          <div>
+            <div class="author-name">Leonardo Guerrero</div>
+            <div class="author-role">Gerente Financiero – LeahApp SAS</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Mejoramos significativamente nuestros procesos administrativos y contables. Los informes nos permiten analizar el rendimiento de la empresa con claridad."</blockquote>
+        <div class="testi-author">
+          <div class="author-avatar">YP</div>
+          <div>
+            <div class="author-name">Yolanda Pinzón</div>
+            <div class="author-role">Agroganadera Silva Pinzón</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Llevamos cuatro años con Pluss100. El soporte siempre está dispuesto a colaborar y los requerimientos de parametrización se adaptan oportunamente."</blockquote>
+        <div class="testi-author">
+          <div class="author-avatar">YF</div>
+          <div>
+            <div class="author-name">Yudy Forero</div>
+            <div class="author-role">Juan Salas y Cía.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="section-label centered reveal">FAQ</div>
+    <h2 class="section-title centered reveal">Preguntas frecuentes</h2>
+    <p class="section-subtitle centered reveal">Todo lo que necesitas saber antes de agendar tu demo.</p>
+    <div class="faq-grid">
+
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <span>¿Pluss100 incluye facturación electrónica y documentos DIAN?</span>
+          <div class="arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div>
+        </div>
+        <div class="faq-a"><p>Sí. Emite facturas electrónicas, notas crédito y documentos soporte cumpliendo todos los requisitos de la DIAN, y quedan registrados contablemente de forma automática.</p></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <span>¿Necesito instalar algo o tener infraestructura especial?</span>
+          <div class="arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div>
+        </div>
+        <div class="faq-a"><p>No. Pluss100 es 100% web. Accedes desde cualquier dispositivo con internet, sin instalaciones ni servidores propios.</p></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <span>¿Cómo funciona la implementación?</span>
+          <div class="arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div>
+        </div>
+        <div class="faq-a"><p>Incluye importación de tu información actual, parametrización personalizada y capacitaciones al equipo hasta que todo funcione correctamente.</p></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <span>¿Las actualizaciones tienen costo adicional?</span>
+          <div class="arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div>
+        </div>
+        <div class="faq-a"><p>No. Las actualizaciones son automáticas y sin costo extra. Siempre tendrás la versión más reciente y adaptada a las normativas vigentes.</p></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <span>¿Se adapta a diferentes tipos de empresas?</span>
+          <div class="arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div>
+        </div>
+        <div class="faq-a"><p>Sí. Servicios, comercio, producción y más. Configuramos lo que necesitas sin complicaciones.</p></div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <span>¿Puedo tener múltiples usuarios con roles distintos?</span>
+          <div class="arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></div>
+        </div>
+        <div class="faq-a"><p>Sí. Creas usuarios con diferentes niveles de acceso para que cada persona vea solo lo que necesita.</p></div>
+      </div>
+
+    </div>
+
+    <!-- WhatsApp banner -->
+    <div class="whatsapp-banner reveal">
+      <div class="whatsapp-text">
+        <h3>¿Tienes otra pregunta?</h3>
+        <p>¡Hablemos por WhatsApp!</p>
+      </div>
+      <svg class="whatsapp-arrow" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#a3e635" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Abrir WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="cta-final">
+    <div class="content reveal">
+      <div class="section-label" style="color:var(--accent);display:block;margin-bottom:16px">Empieza hoy</div>
+      <h2>¿Listo para tomar el control<br/>de tus finanzas?</h2>
+      <p>Agenda una demo gratuita y descubre en vivo cómo Pluss100 puede transformar la gestión financiera de tu empresa.</p>
+      <a href="https://calendly.com/pluss100/demostracion-pluss100" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display:inline-flex">
+        Agendar demo gratuita
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <p class="cta-note">Sin compromisos · Sin tarjeta de crédito · Respuesta en menos de 24h</p>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <img src="img/logo1.png" alt="Pluss100 - Software contable" width="120" height="36" />
+    <p>&copy; 2026 Pluss100. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
